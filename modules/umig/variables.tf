@@ -25,6 +25,11 @@ variable "network" {
   default     = ""
 }
 
+variable "region" {
+  description = "Region for the managed instance group"
+  default     = ""
+}
+
 variable "subnetwork" {
   description = "Subnet to deploy to. Only one of network or subnetwork should be specified."
   default     = ""
